@@ -1,6 +1,4 @@
-export default class User {
-    //tip belirtemiyoruz, type safety yok. 
-    //bu yüzden özellikleri constuctor'dan set ediyoruz.
+export default class UserAddModel {
     constructor(id, firstName, lastName, city, age) {
         this.id = id
         this.firstName = firstName
@@ -9,4 +7,3 @@ export default class User {
         this.age = age
     }
 }
-
